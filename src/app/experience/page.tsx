@@ -1,4 +1,4 @@
- import { text } from "body-parser"
+
 import Image from "next/image"
           
 export default function Experience(){
