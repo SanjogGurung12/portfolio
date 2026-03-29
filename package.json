@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-  "deploy": "npm run build && npm run export && gh-pages -d out",
-  "start": "next start",
-  "lint": "eslint"
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "next build && gh-pages -d out",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
