@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="p-16">
+    <div className="sm:p-16 p-8">
       <h1 className="text-4xl font-bold pb-6 underline underline-offset-8 decoration-5 decoration-gray-500">
         Contact
       </h1>
@@ -47,7 +47,7 @@ export default function Contact() {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="flex flex-col gap-4 border border-gray-500 rounded-lg p-8 shadow-lg shadow-gray-500"
+        className="flex flex-col gap-4 border border-gray-500 rounded-lg p-4 sm:p-8 shadow-lg shadow-gray-500"
       >
         {/* Name */}
         <input

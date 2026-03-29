@@ -12,9 +12,9 @@ export default function VideoGallery() {
   ];
 
   return (
-    <div className="p-16">
+    <div className="sm:p-16">
 
-       <h1 className="text-4xl font-bold pb-6 underline underline-offset-8 decoration-5 decoration-gray-500">Portfolio</h1>
+       <h1 className="text-4xl font-bold pb-6 underline underline-offset-8 decoration-5 decoration-gray-500 p-8">Portfolio</h1>
 
        <div className="flex flex-wrap flex-col sm:flex-row items-center gap-8 sm:justify-between max-w-full">
         {videos.map((video) => (

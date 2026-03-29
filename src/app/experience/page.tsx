@@ -22,7 +22,7 @@ export default function Experience(){
           }
     ]
     return(
-        <div className="p-16">
+        <div className="sm:p-16 p-8">
             <h1 className="text-4xl font-bold pb-6 underline underline-offset-8 decoration-5 decoration-gray-500">Experience</h1>
       
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-12">
