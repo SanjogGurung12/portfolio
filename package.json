@@ -2,11 +2,12 @@
   "name": "port-folio",
   "version": "0.1.0",
   "private": true,
- "scripts": {
+"scripts": {
   "dev": "next dev",
   "build": "next build",
   "export": "next build && next export",
-  "deploy": "npm run export && gh-pages -d out",
+  "copy-cname": "copy CNAME out\\CNAME",
+  "deploy": "npm run export && npm run copy-cname && gh-pages -d out",
   "start": "next start",
   "lint": "eslint"
 },
